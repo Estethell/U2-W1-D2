@@ -209,15 +209,16 @@ h1 + p {
 
 .divUnderline {
   position: relative;
+  display: inline-block;
 }
 
 .imgUnderline {
   position: absolute;
-  bottom: 2em;
-  right: 10em;
-  width: 32em;
   opacity: 0.5;
-  top: 3em;
+  left: 0;
+  right: 0;
+  width: 100%;
+  bottom: 0;
 }
 
 ul,
@@ -469,6 +470,6 @@ i {
   .divBox {
     position: fixed;
     bottom: 0;
-    right: 0;
+    top: unset;
   }
 }
